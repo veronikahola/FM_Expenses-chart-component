@@ -104,6 +104,10 @@ h1 {
     background-color: hsl(10, 79%, 65%);
     border-radius: 5px;  
 
+    &:hover {
+        background-color: hsl(10, 79%, 65%, 70%);
+    }
+
     &--current-day {
         background-color: hsl(186, 34%, 60%);
 
@@ -112,9 +116,7 @@ h1 {
         }
     }
 
-    &:hover {
-        background-color: hsl(10, 79%, 65%, 70%);
-    }
+    
 };
 
 .bar-container {

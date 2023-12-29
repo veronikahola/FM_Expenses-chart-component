@@ -94,14 +94,14 @@ h1 {
   background-color: hsl(10, 79%, 65%);
   border-radius: 5px;
 }
+.bar:hover {
+  background-color: hsla(10, 79%, 65%, 0.7);
+}
 .bar--current-day {
   background-color: hsl(186, 34%, 60%);
 }
 .bar--current-day:hover {
   background-color: hsla(186, 34%, 60%, 0.7);
-}
-.bar:hover {
-  background-color: hsla(10, 79%, 65%, 0.7);
 }
 
 .bar-container {
